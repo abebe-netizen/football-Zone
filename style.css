@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap');
-:root{--bg:black;--panel:#111a15;--green:#c7f36b;--muted:#9aa69e;--white:#f4f7f2}
+:root{--bg:#000000;--panel:#111a15;--green:#c7f36b;--muted:#9aa69e;--white:#f4f7f2}
 
 
 *{margin:0;padding:2rem;box-sizing:border-box}
@@ -14,7 +14,7 @@ a{color:inherit;text-decoration:none}
 .brand-mark{background:var(--green);color:#10160e;padding:8px 7px;border-radius:7px;font-family:'Barlow Condensed';font-size:20px}
 nav{display:flex;gap:34px;color:#b8c1ba;font-size:13px}nav a:hover,nav a.active{color:var(--green)}
 .header-button{border:1px solid #ffffff35;padding:12px 17px;border-radius:4px;font-size:12px}.header-button span{color:var(--green);margin-left:10px}
-.menu-toggle{display:none;background:none;color:white;border:0;font-size:25px}
+.menu-toggle{display:none;background:none;color:#f4f4f4;border:0;font-size:25px}
 .hero{min-height:610px;padding:90px 10% 65px;position:relative;overflow:hidden;display:flex;align-items:center;background:radial-gradient(ellipse at 76% 48%,#203725 0%,#101c14 28%,#080d0b 65%)}
 .hero-content{max-width:570px;position:relative;z-index:2}.eyebrow{font-size:10px;letter-spacing:2px;color:var(--green);font-weight:700;margin-bottom:17px}.live-dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--green);margin-right:8px;box-shadow:0 0 12px var(--green)}
 h1,h2{font-family:'Barlow Condensed',sans-serif;font-weight:900;line-height:.9;letter-spacing:-1px}h1{font-size:clamp(64px,9vw,112px)}h1 em,h2 em{font-style:normal;color:var(--green)}
