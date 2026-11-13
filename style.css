@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap');
 :root{--bg:#080d0b;--panel:#111a15;--green:#c7f36b;--muted:#9aa69e;--white:#f4f7f2}
-*{margin:0;padding:0;box-sizing:border-box}
+
+
+*{margin:0;padding:1rem;box-sizing:border-box}
+
+
+
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--white);font-family:'DM Sans',sans-serif}
 a{color:inherit;text-decoration:none}
